@@ -1,0 +1,25 @@
+{
+  "message": "This data is read from the file system via MCP resource",
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "role": "developer"
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "role": "designer"
+    },
+    {
+      "id": 3,
+      "name": "Charlie",
+      "role": "manager"
+    }
+  ],
+  "statistics": {
+    "total_users": 3,
+    "active_projects": 5,
+    "last_updated": "2026-05-10"
+  }
+}

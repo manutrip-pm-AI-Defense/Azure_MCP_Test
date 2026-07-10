@@ -1,0 +1,16 @@
+.git/
+.gitignore
+.vscode/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.env
+local.settings.json
+.funcignore
+uv.lock
+CLAUDE.md
+pyproject.toml
