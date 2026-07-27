@@ -1,0 +1,561 @@
+Date: Mon, 27 Jul 2026 05:07:45 +0000 (UTC)
+Message-ID: <270163043.1.1785128865859@a01aceedfa3d>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_434413111.1785128865829"
+
+------=_Part_0_434413111.1785128865829
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>[Q3] Updated MCP Scan Profile</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>[Q3] Updated MCP Scan Profile</h1>
+    <div class=3D"Section1">
+        <div class=3D"table-wrap">
+<table data-table-width=3D"1800" data-layout=3D"default" data-local-id=3D"0=
+295b53b5c6e" class=3D"confluenceTable">
+<colgroup>
+<col style=3D"width: 53.0px;">
+<col style=3D"width: 177.0px;">
+<col style=3D"width: 370.0px;">
+<col style=3D"width: 115.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+<col style=3D"width: 180.0px;">
+</colgroup>
+<tbody>
+<tr data-local-id=3D"d01f502dc8eb">
+<th data-local-id=3D"c60c439f6cf0" class=3D"confluenceTh">
+<p local-id=3D"80e87a787cd7"><strong>No.</strong></p></th>
+<th data-local-id=3D"e912444548f6" class=3D"confluenceTh">
+<p local-id=3D"c6886d7190a6"><strong>Rule Names</strong></p></th>
+<th data-local-id=3D"4197268023b9" class=3D"confluenceTh">
+<p local-id=3D"cf2106a46584"><strong>Description (What It Detects)</strong>=
+</p></th>
+<th data-local-id=3D"5c4dc904db70" class=3D"confluenceTh">
+<p local-id=3D"24889323835b"><strong>Default Action on Detection</strong></=
+p></th>
+<th data-local-id=3D"a0531a0e4d02" class=3D"confluenceTh">
+<p local-id=3D"97be162936e0"><strong>Typical Severity</strong></p></th>
+<th data-local-id=3D"9df13d49219c" class=3D"confluenceTh">
+<p local-id=3D"5b5d3f6ba419"><strong>Taxonomy Mapping</strong></p></th>
+<th data-local-id=3D"1cf4e03d0c17" class=3D"confluenceTh">
+<p local-id=3D"d2a220836ba0"><strong>Config</strong></p></th>
+<th data-local-id=3D"c41dce64132d" class=3D"confluenceTh">
+<p local-id=3D"0dd27ba41d2a"><strong>MCP Scanner Support</strong></p></th>
+<th data-local-id=3D"1653204b72a3" class=3D"confluenceTh">
+<p local-id=3D"4874cac8763d"><strong>Supported Capabilities</strong></p></t=
+h>
+<th data-local-id=3D"e72b9ba5180b" class=3D"confluenceTh">
+<p local-id=3D"ac6506d955d0"><strong>Not Supported Capabilities</strong></p=
+></th>
+</tr>
+<tr data-local-id=3D"c115cd023920">
+<td data-local-id=3D"29e610828ca0" class=3D"confluenceTd">
+<p local-id=3D"0af0d9889681">1</p></td>
+<td data-local-id=3D"00556d4dd312" class=3D"confluenceTd">
+<p local-id=3D"29a25a0c6df2">Malicious Code Execution</p></td>
+<td data-local-id=3D"9121b45aafa9" class=3D"confluenceTd">
+<p local-id=3D"0aa662c920dc">Detects harmful code payloads in MCP tools: ba=
+ckdoors, trojans, arbitrary code execution (eval/exec/compile), injection a=
+ttacks (SQL, command, XSS), and template injection (SSTI). Scans both tool =
+metadata and MCP server implementation code. Rule also covers tool poisonin=
+g, where malicious code payloads are embedded in tools.</p></td>
+<td data-local-id=3D"4e061e8f7971" class=3D"confluenceTd">
+<p local-id=3D"3f1e157e77cb">Block / Quarantine + Alert</p></td>
+<td data-local-id=3D"2bc60418fcf0" class=3D"confluenceTd">
+<p local-id=3D"f1c5769b0d94">AISubtech-9.2.2: HIGH, AISubtech-9.1.1: LOW, A=
+ISubtech-9.1.4: HIGH, AISubtech-9.1.5: MEDIUM</p></td>
+<td data-local-id=3D"59dbda1e58db" class=3D"confluenceTd">
+<p local-id=3D"c0be0cd963a8">AISubtech-9.2.2 (Backdoors and Trojans), AISub=
+tech-9.1.1 (Code Execution), AISubtech-9.1.4 (Injection Attacks (e.g., SQL,=
+ Command Execution, XSS)), AISubtech-9.1.5 (Template Injection (e.g., SSTI)=
+)</p></td>
+<td data-local-id=3D"2e5b704916d5" class=3D"confluenceTd">
+<p local-id=3D"956ca28d0a78">Enable or Disable</p></td>
+<td data-local-id=3D"2d7c610fbef8" class=3D"confluenceTd">
+<p local-id=3D"931f0bc4dc56">YES</p></td>
+<td data-local-id=3D"8bd9d4a941b3" class=3D"confluenceTd">
+<p local-id=3D"d7b89333a456">Detects malicious code patterns in tool metada=
+ta (YARA, LLM) and in MCP server source code (Behavioral Code Analyzer - AS=
+T parsing, cross-file dataflow, alignment checking).</p></td>
+<td data-local-id=3D"e2fc1c3f7d6e" class=3D"confluenceTd">
+<p local-id=3D"39d086679317"></p></td>
+</tr>
+<tr data-local-id=3D"89540420c59c">
+<td data-local-id=3D"a65d97dae77d" class=3D"confluenceTd">
+<p local-id=3D"d7ff0dec3282">2</p></td>
+<td data-local-id=3D"4b5c9a5f9c36" class=3D"confluenceTd">
+<p local-id=3D"41fb28eb2caf">Prompt Injection and Jailbreak Attempts</p></t=
+d>
+<td data-local-id=3D"b48aeadc7cf8" class=3D"confluenceTd">
+<p local-id=3D"fccad99b1c1d">Detects hidden instructions, DAN-style prompts=
+, and obfuscated attacks in MCP artifacts intended to override or manipulat=
+e the LLM. Rule includes instruction manipulation via tool descriptions, pr=
+ompts, resources, and server instructions, as well as tool poisoning via me=
+tadata where the goal is to inject instructions that manipulate the LLM's r=
+easoning.</p></td>
+<td data-local-id=3D"d4fd3f6748c8" class=3D"confluenceTd">
+<p local-id=3D"e9c7e80c600c">Block</p></td>
+<td data-local-id=3D"0f480a4f0c77" class=3D"confluenceTd">
+<p local-id=3D"865d86d5a08a">AISubtech-1.1.1: HIGH, AISubtech-12.1.2: HIGH<=
+/p></td>
+<td data-local-id=3D"fe08bf04367c" class=3D"confluenceTd">
+<p local-id=3D"e31b4320c1f9">AISubtech-1.1.1 (Instruction Manipulation (Dir=
+ect Prompt Injection)), AISubtech-12.1.2 (Tool Poisoning)</p></td>
+<td data-local-id=3D"de96790de1b1" class=3D"confluenceTd">
+<p local-id=3D"a99514e27255">Enable or Disable</p></td>
+<td data-local-id=3D"9054914cb9a1" class=3D"confluenceTd">
+<p local-id=3D"44376d972799">YES</p></td>
+<td data-local-id=3D"2bc744e2af28" class=3D"confluenceTd">
+<p local-id=3D"6e4cab162951">Detects injection patterns in tool metadata (Y=
+ARA, LLM, AI Defense API) and poisoned tool registrations in MCP server sou=
+rce code (Behavioral Code Analyzer).</p></td>
+<td data-local-id=3D"44ccf26b9c7a" class=3D"confluenceTd">
+<p local-id=3D"da19ca016925"></p></td>
+</tr>
+<tr data-local-id=3D"1df44c85b0b4">
+<td data-local-id=3D"82b4a8960fe2" class=3D"confluenceTd">
+<p local-id=3D"b1ab9cace8a7">3</p></td>
+<td data-local-id=3D"7f3c5c4054c6" class=3D"confluenceTd">
+<p local-id=3D"f9e80825da1f">Unauthorized Network Access</p></td>
+<td data-local-id=3D"a1ed44aa8348" class=3D"confluenceTd">
+<p local-id=3D"1cbc98dc1764">Detects outbound calls to suspicious endpoints=
+, DNS tunneling, command-and-control (C2) patterns, and SSRF in MCP tools o=
+r server code. Scans both tool metadata and MCP server implementation code =
+for unauthorized network activity unrelated to the tool's declared function=
+.</p></td>
+<td data-local-id=3D"08c698d8b939" class=3D"confluenceTd">
+<p local-id=3D"28ec936c80f7">Block</p></td>
+<td data-local-id=3D"bba0a4abcd24" class=3D"confluenceTd">
+<p local-id=3D"74eb8a91fe0e">HIGH</p></td>
+<td data-local-id=3D"a27c978ea6c4" class=3D"confluenceTd">
+<p local-id=3D"3f05e8221c02">AISubtech-9.1.3 (Unauthorized or Unsolicited N=
+etwork Access)</p></td>
+<td data-local-id=3D"e3a8d91f0c41" class=3D"confluenceTd">
+<p local-id=3D"cdf6ffc92a28">Enable or Disable</p></td>
+<td data-local-id=3D"2931b0656b81" class=3D"confluenceTd">
+<p local-id=3D"a90d29c50be3">YES</p></td>
+<td data-local-id=3D"55023eddaecd" class=3D"confluenceTd">
+<p local-id=3D"5140ae925632">Detects network patterns in tool metadata (YAR=
+A, LLM) and unauthorized outbound connections in MCP server source code (Be=
+havioral Code Analyzer - AST detection of requests, urllib, socket, httpx c=
+alls).</p></td>
+<td data-local-id=3D"ee495d1cd191" class=3D"confluenceTd">
+<p local-id=3D"dfea147f351c">Cannot distinguish between customer-approved a=
+nd unapproved domains/IPs (requires customer-provided allow-lists).</p></td=
+>
+</tr>
+<tr data-local-id=3D"262582a84f2c">
+<td data-local-id=3D"e985a1d1a4a9" class=3D"confluenceTd">
+<p local-id=3D"c63afd7bc72a">4</p></td>
+<td data-local-id=3D"1881a2158969" class=3D"confluenceTd">
+<p local-id=3D"f903403149d0">Resource Abuse and Denial-of-Service</p></td>
+<td data-local-id=3D"e92aab588057" class=3D"confluenceTd">
+<p local-id=3D"64fec03fd22c">Detects infinite loops, memory bombs, fork bom=
+bs, and excessive resource consumption that could exhaust compute. Scans bo=
+th tool metadata and MCP server implementation code for unbounded operation=
+s.</p></td>
+<td data-local-id=3D"fd5818de4c93" class=3D"confluenceTd">
+<p local-id=3D"fc06d29e65c4">Block or Rate-limit</p></td>
+<td data-local-id=3D"80f19599a984" class=3D"confluenceTd">
+<p local-id=3D"73e87b2bf042">MEDIUM</p></td>
+<td data-local-id=3D"e32f657c9e8d" class=3D"confluenceTd">
+<p local-id=3D"fc13ac7e8708">AISubtech-13.1.1 (Compute Exhaustion)</p></td>
+<td data-local-id=3D"5ab20d029792" class=3D"confluenceTd">
+<p local-id=3D"8f4dbb043153">Enable or Disable</p></td>
+<td data-local-id=3D"ad5d516ba5b6" class=3D"confluenceTd">
+<p local-id=3D"5a5261da188b">YES</p></td>
+<td data-local-id=3D"0784d04da287" class=3D"confluenceTd">
+<p local-id=3D"83f0921f13f6">Detects DoS patterns in tool metadata (YARA, L=
+LM) and unbounded loops, missing break conditions, and recursive calls with=
+out depth limits in MCP server source code (Behavioral Code Analyzer).</p><=
+/td>
+<td data-local-id=3D"911f10395263" class=3D"confluenceTd">
+<p local-id=3D"080bd6d0d3c6"></p></td>
+</tr>
+<tr data-local-id=3D"3459484de268">
+<td data-local-id=3D"702cf25dad50" class=3D"confluenceTd">
+<p local-id=3D"e48122b06fb6">5</p></td>
+<td data-local-id=3D"83efa34e779c" class=3D"confluenceTd">
+<p local-id=3D"4b8fc32f2ce8">Defense Evasion</p></td>
+<td data-local-id=3D"e34ef9053780" class=3D"confluenceTd">
+<p local-id=3D"0eadac426e07">Detects techniques to bypass sandbox or isolat=
+ion boundaries: ctypes imports, os.execv, container escapes (nsenter, /proc=
+ manipulation), and system-level interactions beyond allowed scope. Primari=
+ly detected in MCP server implementation code.</p></td>
+<td data-local-id=3D"02b522559919" class=3D"confluenceTd">
+<p local-id=3D"a525c5b83237">Block/Alert</p></td>
+<td data-local-id=3D"fa67e925a8b3" class=3D"confluenceTd">
+<p local-id=3D"779f4e546cc2">HIGH</p></td>
+<td data-local-id=3D"2e913fe08be9" class=3D"confluenceTd">
+<p local-id=3D"b3be1b9393ce">AISubtech-11.1.2 (Tool-Scoped Evasion)</p></td=
+>
+<td data-local-id=3D"7785c389d1ec" class=3D"confluenceTd">
+<p local-id=3D"6489159853cd">Enable or Disable</p></td>
+<td data-local-id=3D"5a2b322ef51c" class=3D"confluenceTd">
+<p local-id=3D"9a1bb4ac0c77">YES</p></td>
+<td data-local-id=3D"c9c7dc2c6631" class=3D"confluenceTd">
+<p local-id=3D"8ea94eff43d6">Detects evasion behavior in tool metadata (LLM=
+ semantic analysis) and sandbox/container escape techniques in MCP server s=
+ource code (Behavioral Code Analyzer - AST analysis of imports and system c=
+alls).</p></td>
+<td data-local-id=3D"3f31cc86baf6" class=3D"confluenceTd">
+<p local-id=3D"e17fe1c540b0"></p></td>
+</tr>
+<tr data-local-id=3D"f0900a450002">
+<td data-local-id=3D"37bd7f138ee4" class=3D"confluenceTd">
+<p local-id=3D"e312a829861d">6</p></td>
+<td data-local-id=3D"b9a7c38f559f" class=3D"confluenceTd">
+<p local-id=3D"44bbb6931b7a">Unauthorized File System Access</p></td>
+<td data-local-id=3D"9ef444d32f73" class=3D"confluenceTd">
+<p local-id=3D"bcc919241fbe">Detects unauthorized file reads/writes, path t=
+raversal attacks, and access to sensitive system files (credentials, SSH ke=
+ys, environment files). Scans both tool metadata and MCP server implementat=
+ion code.</p></td>
+<td data-local-id=3D"928652275535" class=3D"confluenceTd">
+<p local-id=3D"d1d47e996035">Block</p></td>
+<td data-local-id=3D"eb6315219b42" class=3D"confluenceTd">
+<p local-id=3D"84ae32ef4ea7">HIGH</p></td>
+<td data-local-id=3D"222fdce09c67" class=3D"confluenceTd">
+<p local-id=3D"cbea97abff9f">AISubtech-9.1.2 (Unauthorized or Unsolicited S=
+ystem Access), AISubtech-12.1.3 (Unsafe System / Browser / File Exec)</p></=
+td>
+<td data-local-id=3D"45ab2fb8b0d5" class=3D"confluenceTd">
+<p local-id=3D"b473baea1d68">Enable or Disable</p></td>
+<td data-local-id=3D"17fc809f0f1d" class=3D"confluenceTd">
+<p local-id=3D"9e3fe426e75c">PARTIAL</p></td>
+<td data-local-id=3D"3339048fc4f8" class=3D"confluenceTd">
+<p local-id=3D"76192b448511">Detects file access patterns in tool metadata =
+(YARA, LLM) and unauthorized file operations, path traversal, and sensitive=
+ path access in MCP server source code (Behavioral Code Analyzer).</p></td>
+<td data-local-id=3D"d7404513704e" class=3D"confluenceTd">
+<p local-id=3D"2ab8d6ec8a27">Cannot enforce customer-defined allow/deny pat=
+h policies (e.g., "only /workspace is permitted").</p></td>
+</tr>
+<tr data-local-id=3D"308a0a6d3381">
+<td data-local-id=3D"17098e76b7bc" class=3D"confluenceTd">
+<p local-id=3D"94bc08ea931e">7</p></td>
+<td data-local-id=3D"a130e8261906" class=3D"confluenceTd">
+<p local-id=3D"f5364737cfef">Data Exfiltration via Tools</p></td>
+<td data-local-id=3D"afb6d2306b4d" class=3D"confluenceTd">
+<p local-id=3D"2e35cf5d4903">Detects unauthorized extraction or leakage of =
+sensitive information: outbound data transmission, covert exfiltration chan=
+nels (DNS tunneling, encoded URLs), and credential harvesting. Scans both t=
+ool metadata and MCP server implementation code.</p></td>
+<td data-local-id=3D"b1ea2026cdf9" class=3D"confluenceTd">
+<p local-id=3D"a0fba87cb5f1">Block</p></td>
+<td data-local-id=3D"a9adc5eaf48a" class=3D"confluenceTd">
+<p local-id=3D"0199df440b77">HIGH</p></td>
+<td data-local-id=3D"0006315d5a36" class=3D"confluenceTd">
+<p local-id=3D"37285a05a89e">AISubtech-8.2.3 (Data Exfiltration via Agent T=
+ooling)</p></td>
+<td data-local-id=3D"a8a3f6777393" class=3D"confluenceTd">
+<p local-id=3D"cb500eaa2197">Enable or Disable</p></td>
+<td data-local-id=3D"741f016acdc8" class=3D"confluenceTd">
+<p local-id=3D"3fc5adb3ddde">PARTIAL</p></td>
+<td data-local-id=3D"b6ae4a41a0e0" class=3D"confluenceTd">
+<p local-id=3D"d4c3df1d395b">Detects exfiltration patterns in tool metadata=
+ (YARA, LLM, AI Defense API) and cross-file dataflow from sensitive data so=
+urces to outbound network sinks in MCP server source code (Behavioral Code =
+Analyzer).</p></td>
+<td data-local-id=3D"931722ab7051" class=3D"confluenceTd">
+<p local-id=3D"5d6405ad920c">Cannot classify the category of data being exf=
+iltrated (PII, credentials, source code, etc.) - flags the exfiltration beh=
+avior itself.</p></td>
+</tr>
+<tr data-local-id=3D"774784fb3c3b">
+<td data-local-id=3D"3c7ba8a25fd7" class=3D"confluenceTd">
+<p local-id=3D"519070167127">8</p></td>
+<td data-local-id=3D"7f4e69780953" class=3D"confluenceTd">
+<p local-id=3D"324172124d02">Tool Deception and Impersonation</p></td>
+<td data-local-id=3D"c20157eddf49" class=3D"confluenceTd">
+<p local-id=3D"b9f2b3b73515">Detect tools whose behavior diverges from thei=
+r declared purpose to deceive, and tools that impersonate legitimate tools.=
+ Includes tool poisoning where the goal is behavioral deception and output =
+manipulation=20
+<del>(distinct from Rule 2's prompt injection angle and Rule 1's code execu=
+tion angle)</del>, tool shadowing via duplicate registrations, and unsolici=
+ted code execution via tool metadata or outputs.</p></td>
+<td data-local-id=3D"89a7c6f7abf0" class=3D"confluenceTd">
+<p local-id=3D"513062feb233">Block</p></td>
+<td data-local-id=3D"d40b6562f10e" class=3D"confluenceTd">
+<p local-id=3D"c5b841eb6538">HIGH</p></td>
+<td data-local-id=3D"29d540f8468f" class=3D"confluenceTd">
+<p local-id=3D"34e49362d160">AISubtech-12.1.2 (Tool Poisoning), AISubtech-1=
+2.1.4 (Tool Shadowing)</p></td>
+<td data-local-id=3D"ee4e850c0499" class=3D"confluenceTd">
+<p local-id=3D"d25ef80aba43">Enable or Disable</p></td>
+<td data-local-id=3D"2d0ec9a0fc68" class=3D"confluenceTd">
+<p local-id=3D"69bc030fd070">YES</p></td>
+<td data-local-id=3D"c8b36e407a7e" class=3D"confluenceTd">
+<p local-id=3D"2b537d05b076">Detects poisoning/shadowing patterns in tool m=
+etadata (YARA, LLM) and hidden functionality, output manipulation, and shad=
+ow tool registrations in MCP server source code (Behavioral Code Analyzer).=
+</p></td>
+<td data-local-id=3D"ca438ff8b5e9" class=3D"confluenceTd">
+<p local-id=3D"e0ea67e09c07"></p></td>
+</tr>
+<tr data-local-id=3D"ce1ca45dc4f9">
+<td data-local-id=3D"0bab6e506e48" class=3D"confluenceTd">
+<p local-id=3D"b1075d322bac">9</p></td>
+<td data-local-id=3D"a3cf627c5457" class=3D"confluenceTd">
+<p local-id=3D"a360da2d73ec">Harmful / Misleading / Inaccurate Output</p></=
+td>
+<td data-local-id=3D"fa3a8153ecac" class=3D"confluenceTd">
+<p local-id=3D"4189b6391eb9">Detect harmful content across all MCP primitiv=
+es for violence, harassment, hate speech, profanity, sexual content, social=
+ division, and content that steers the LLM toward attacker-defined objectiv=
+es.</p></td>
+<td data-local-id=3D"284d86e6209a" class=3D"confluenceTd">
+<p local-id=3D"f0e9c9050f00">Block</p></td>
+<td data-local-id=3D"af2cc39152b5" class=3D"confluenceTd">
+<p local-id=3D"5852301c7627">MEDIUM</p></td>
+<td data-local-id=3D"cf269d6f23b3" class=3D"confluenceTd">
+<p local-id=3D"e1abddba797d">AITech-15.1 (Harmful / Misleading / Inaccurate=
+ Content), AISubtech-15.1.8 (Harassment), AISubtech-15.1.9 (Hate Speech), A=
+ISubtech-15.1.11 (Profanity), AISubtech-15.1.14 (Sexual Content &amp; Explo=
+itation), AISubtech-15.1.15 (Social Division &amp; Polarization), AISubtech=
+-15.1.17 (Violence &amp; Public Safety Threat)</p></td>
+<td data-local-id=3D"696834270f09" class=3D"confluenceTd">
+<p local-id=3D"d14830b63fee">Enable or Disable</p></td>
+<td data-local-id=3D"c646c25d559a" class=3D"confluenceTd">
+<p local-id=3D"353594a1eaf9">YES</p></td>
+<td data-local-id=3D"295513d262ce" class=3D"confluenceTd">
+<p local-id=3D"100a60daeb5d">It classifies MCP components against safety ca=
+tegories.</p>
+<p local-id=3D"f716c8b842dd">LLM provides supplementary semantic analysis. =
+Behavioral Code Analyzer detects goal manipulation patterns in MCP server s=
+ource code.</p></td>
+<td data-local-id=3D"53b9a4205654" class=3D"confluenceTd">
+<p local-id=3D"07d80e6eef37"></p></td>
+</tr>
+</tbody>
+</table>
+</div>
+    </div>
+</body>
+</html>
+------=_Part_0_434413111.1785128865829--
